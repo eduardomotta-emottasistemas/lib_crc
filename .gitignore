@@ -1,0 +1,7 @@
+*.c
+*.obj
+*.ppo
+*.log
+*.exe
+*.map
+xbuild.windows.ini
