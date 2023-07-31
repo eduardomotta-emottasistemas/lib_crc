@@ -5,3 +5,7 @@
 *.exe
 *.map
 xbuild.windows.ini
+.hbmk/win/mingw/_hbmkaut_test_crc.o
+.hbmk/win/mingw/crc_c.o
+.hbmk/win/mingw/crc.o
+.hbmk/win/mingw/test_crc.o
