@@ -309,6 +309,7 @@ return crc;
 uint16_t crc16_mcrf4xx(uint8_t *data, size_t len)
 {
    uint16_t crc;
+   int i;
 
    crc = CRC_START_CCITT_FFFF;
 
@@ -317,7 +318,7 @@ uint16_t crc16_mcrf4xx(uint8_t *data, size_t len)
 
     while (len--) {
         crc ^= *data++;
-        for (int i=0; i<8; i++) {
+        for (i=0; i<8; i++) {
             if (crc & 1)  crc = (crc >> 1) ^ 0x8408;
             else          crc = (crc >> 1);
         }
