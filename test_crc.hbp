@@ -1,0 +1,10 @@
+-lHBCT
+-lHbWin
+-lXHb
+-inc
+-oG:\examples\lib_crc\test_crc.exe
+-d__HARBOURPRO__
+G:\examples\lib_crc\test_crc.prg
+G:\examples\lib_crc\crc_c.prg
+G:\examples\lib_crc\crc.prg
+
