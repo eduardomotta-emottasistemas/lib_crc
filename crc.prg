@@ -57,7 +57,7 @@ If lInvert
     cCrc_Str := HexTostr(cCrc)
     cCrc := ""
     For nI := Len(cCrc_Str) to 1 Step -1
-        cCrc+=cCrc_Str[nI]
+        cCrc+=SubStr(cCrc_Str, nI, 1)
     Next
     cCrc := StrToHex(cCrc)
 EndIf
@@ -91,7 +91,7 @@ If lInvert
     cCrc_Str := HexTostr(cCrc)
     cCrc := ""
     For nI := Len(cCrc_Str) to 1 Step -1
-        cCrc+=cCrc_Str[nI]
+        cCrc+=SubStr(cCrc_Str, nI, 1)
     Next
     cCrc := StrToHex(cCrc)
 EndIf
